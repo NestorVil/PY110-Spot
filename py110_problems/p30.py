@@ -21,6 +21,7 @@ def is_anagram(string1, string2):
     string2 = "".join(sorted(string2))
 
     print(string1 == string2)
+    return string1 == string2
 
 
 is_anagram('Creative', 'Reactive') 
